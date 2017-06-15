@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <title>Document</title> 
+  <style>
+  *{margin: 0 padding: 0; border: 0;
+   --fontColor:#fff;
+  }
+
+   body{background-color:#057; margin:0px;}
+    #box{width:600px; height:500px; margin:50px auto;}
+    .out_box{width:inherit; height: 100px;}
+    #headerBox{width:600px; background-color:#f0a; 
+      color:var(--fontColor);}
+    #contentBox{width:600px; height:300px; background-color:#fa0;}
+     #sideBox{width:40%; height:inherit; background-color:#ccc;}
+     #dataBox{width:60%; height:inherit; background-color:#333;}
+    #footBox{width:600px; background-color:#0af;}
+
+
+  </style>
+  <script>
+  </script>
+</head>
+<body>
+  <div id="box">
+    <header id="headerBox" class="out_box">headerBox</header><!--//헤더박스-->
+    <section id="contentBox" class="out_box">
+      <aside id="sideBox">sideBox</aside><!--// #sideBox-->
+      <article id="dataBox">dataBox</article><!--// #dataBox-->
+    </section><!--//컨텐트박스-->
+    <footer id="footBox" class="out_box" >footBox</footer><!--//풋박스-->
+
+
+  </div><!--box-->
+</body>
+</html>
