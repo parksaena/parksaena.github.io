@@ -21,60 +21,89 @@
 
 /*------------hidden------------------------------*/
     .hidden{display: block; width: 0; height: 0; overflow: hidden;}
-    .clearfix after{content:""; display: block; width:0; height:0; clear:both;}
+    .clearfix:after{content:""; display: block; width:0; height:0; clear:both;}
+    #wrap .first_li{margin-left: 0;}
 
 
 
-
-   #wrap{width:700px; height:745px; margin:0;}
+   #wrap{width:700px; height:745px; margin:0 auto;}
    #headBox{width:700px; height:80px; background-color:#faa; padding:5px; box-sizing:border-box;}
-    h1{width:100px; height:50px; float:left; text-align:center; background-color:#fff;}
+      h1{width:100px; height:50px; float:left; text-align:center; background-color:#fff;}
 
-    #navi{width:400px; height:auto; float:right;}
-    #navi>ul{width:100%; height:100%;}
-    #navi>ul>li{width:24%; height:30%; float:left; background-color:#ddd; margin-left:1.33333333px
-      ;}
+      #navi{width:400px; height:auto; float:right; margin-top: 20px;}
+      #navi>ul{width:100%; height:100%;}
+      #navi>ul>li{width:24%; height:30%; float:left; background-color:#ddd; margin-left:1.33333333%;}
+    #contentBox{width:700px height:585px;}
+      #banner{width:700px; height:250px; background-color:#ddf; text-align:center;}
+      #aside{width:700px; height:35px; background-color:#fee; text-align:center;}
 
-    #banner{width:700px; height:250px; background-color:#ddf; text-align:center;}
-    #aside{width:700px; height:35px; background-color:#fee; text-align:center;}
-    #contentBox_01{width:350px; height:300px; float:left; background-color:#f44;}
-    #contentBox_02{width:350px; height:300px; float:left; background-color:#f66;}
-    #footBox{width:700px; height:80px; background-color:#fdd; text-align:center;}
+      #articleBox{width:100%; height:300px; background-color:#f44;}
+      #articleBox>.content{width:50%; height:100%; float:left; padding:10px 15px; box-sizing: border-box;}
+       .contentBox_01>ul{width:320px; height:auto;}
+       .contentBox_01>ul>li{width:150px; height:130px; float:left; margin:5px; background-color:#fff;}
+
+     
+       .contentBox_02{width:350px; height:300px; float:left; background-color:#f66;}
+       .contentBox_02>ul{width: 100%; height: 100%; }
+       .contentBox_02>ul>li{width: 100%; height:80px; background-color: #afc; margin-bottom: 15px;}
+       .contentBox_02>ul>li.last_margin{margin-bottom: 0;}
+    #footBox{width:700px; height:80px; background-color:#fdd; float: left; text-align:center;}
 
 
   </style>
 </head>
 <body>
  <div id="wrap">
+ <!--머리_____________________________________________________-->
    <header id="headBox">
       <h1>logo</h1> 
-   <nav id="navi">
-     <h2 class="hidden">navigation</h2>
-       <ul class="clearfix">
-          <li>navi_01</li>
-          <li>navi_02</li>
-          <li>navi_03</li>
-          <li>navi_04</li>
-       </ul>
-   </nav>
-   </header>
-   <section id="banner"><h2>banner</h2></section>
-   <section id="aside"><h3>aside</h3></section>
-   <section id="contentBox_01"><h3 class="hidden">contentBox_01</h3></section>
+      <nav id="navi">
+        <h2 class="hidden">navigation</h2>
+          <ul class="clearfix">
+             <li class="first_li">navi_01</li>
+             <li>navi_02</li>
+             <li>navi_03</li>
+             <li>navi_04</li>
+          </ul>
+      </nav>
+    </header>
+    <!--머리끝__________-->
+    <div id="contentBox" class="clearfix">
+      <section id="banner">
+        <h2>banner</h2>
+      </section><!-- // #banner -->
+
+      <aside id="aside">
+       <h2>aside</h2>
+      </aside><!-- // #aside -->
+    
+     
+      <article id="articleBox">
+      <h2 class="hidden">content area</h2>
+         <article class="contentBox_01 content">
+            <h3 class="hidden">contentBox_01</h3>
+              <ul class="clearfix">
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
+                <li>04</li>
+              </ul>
+          </article>
+        <article class="contentBox_02 content">
+          <h3 class="hidden">contentBox_02</h3>
+          <ul>
+            <li>list img 01</li>
+            <li>list img 02</li>
+            <li class="last_margin">list img 03</li>
+          </ul>
+        </article><!-- // #contentBox_02 -->
+    
+      </article><!-- // #contentBox_01 -->
+   <!--몸통끝________________________________________-->
    
-    <h2 class="hidden">article</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-
-   <section id="contentBox_02"><h3 class="hidden">contentBox_02</h3></section>
-
-
-   <footer id="footBox">
-   <h3>footer</h3></footer>
+    <footer id="footBox">
+      <h3>footer</h3>
+    </footer>
   </div>
 </body>
 </html>
