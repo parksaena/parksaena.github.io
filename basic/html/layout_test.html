@@ -3,42 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
   <title>layout</title>
-  <style type="text/css">
+  <style>
+
+/*--------------------------------------reset-----------------------------------------------------*/
+   html,body{width: 100%; height: 100%;}
+  html,body, h1,h2,h3,h4,h5,h6,
+  p,div,pre,form,fieldset,hr,ul,ol,li,dd,dt,dl{margin: 0; padding: 0;}
+
+  ul,ol,li{list-style: none;}
+  
+  /* html5 reset */
+  header,nav,aside,article,section,footer,main,figure{
+    display: block; margin: 0; padding: 0;}
+
+/*------------hidden------------------------------*/
+    .hidden{display: block; width: 0; height: 0; overflow: hidden;}
+    .clearfix after{content:""; display: block; width:0; height:0; clear:both;}
 
 
-   #wrap{width:700px; height:745px; margin:0; }
-   #headBox{width:700px; height:80px; background-color:#faa; padding:20px;}
-    h1{width:100px; height:50px; float:left; background-color:#fff; margin-bottom:2px;}
-    #navi{width:100px; height:30px; float:left;}
-    #navi>ul{width:100%; height:100%; float:left; background-color:#ddd; }
-   #banner{width:700px; height:250px; background-color:#fad; }
-   #aside{width:700px; height:35px; background-color:#f11 }
-   #contentBox{width:700px; height:300px; background-color:#22d; }
-   #footBox{width:700px; height:80px; background-color:#fdd; }
+
+
+   #wrap{width:700px; height:745px; margin:0;}
+   #headBox{width:700px; height:80px; background-color:#faa; padding:5px; box-sizing:border-box;}
+    h1{width:100px; height:50px; float:left; text-align:center; background-color:#fff;}
+
+    #navi{width:400px; height:auto; float:right;}
+    #navi>ul{width:100%; height:100%;}
+    #navi>ul>li{width:24%; height:30%; float:left; background-color:#ddd; margin-left:1.33333333px
+      ;}
+
+    #banner{width:700px; height:250px; background-color:#ddf; text-align:center;}
+    #aside{width:700px; height:35px; background-color:#fee; text-align:center;}
+    #contentBox_01{width:350px; height:300px; float:left; background-color:#f44;}
+    #contentBox_02{width:350px; height:300px; float:left; background-color:#f66;}
+    #footBox{width:700px; height:80px; background-color:#fdd; text-align:center;}
 
 
   </style>
 </head>
 <body>
- <div id="wrap"></div>
+ <div id="wrap">
    <header id="headBox">
-      <h1>logo</h1>
+      <h1>logo</h1> 
    <nav id="navi">
-     <h2 class="hidden">navi navigation</h2>
-     <ul>
-        <li>navi_01</li>
-        <li>navi_02</li>
-        <li>navi_03</li>
-        <li>navi_04</li>
-     </ul>
+     <h2 class="hidden">navigation</h2>
+       <ul class="clearfix">
+          <li>navi_01</li>
+          <li>navi_02</li>
+          <li>navi_03</li>
+          <li>navi_04</li>
+       </ul>
    </nav>
    </header>
+   <section id="banner"><h2>banner</h2></section>
+   <section id="aside"><h3>aside</h3></section>
+   <section id="contentBox_01"><h3 class="hidden">contentBox_01</h3></section>
+   
+    <h2 class="hidden">article</h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
 
-   <section id="banner">banner</section>
-   <section id="aside">aside</section>
-   <section id="contentBox"></section>
-   <footer id="footBox">footer</footer>
-  
+   <section id="contentBox_02"><h3 class="hidden">contentBox_02</h3></section>
+
+
+   <footer id="footBox">
+   <h3>footer</h3></footer>
+  </div>
 </body>
 </html>
