@@ -12,12 +12,26 @@
    body{background-color:#057; margin:0px;}
     #box{width:600px; height:500px; margin:50px auto;}
     .out_box{width:inherit; height: 100px;}
-    #headerBox{width:600px; background-color:#f0a; 
+    #headerBox{background-color:#f0a; 
       color:var(--fontColor);}
-    #contentBox{width:600px; height:300px; background-color:#fa0;}
-     #sideBox{width:40%; height:inherit; background-color:#ccc;}
-     #dataBox{width:60%; height:inherit; background-color:#333;}
-    #footBox{width:600px; background-color:#0af;}
+    #contentBox{height:auto;}
+    /* 
+       블록 요소를 옆으로 나열하시 위해 플롯기능을 사용한다.
+       왼쪽을 기준으로 나열하기 위해서는 플롯:레프트
+       오른쪽을 기준으로 나열하려면 플롯:라이트
+       문제점1. 부모요소에 높이값을 설정하면 넘어가는 사이즈를 매번 변경해야 한다.
+       문제점2. 부모요소에 높이값을 오토로 설정하면 부모의 높이는 0처리된다.(플롯의 의미)
+       해결방안 
+         1.클리어 속성을 사용
+          2. 정의된 이름은 아니지만 보편적으로 클리어픽스 사용한다.
+          3. css의 추가기능(선택자의 기능) ::비포, ::에프터
+    */
+     #sideBox{width:40%; height:300px; float:left; background-color:#ccc;}
+     #dataBox{width:60%; height:300px; float:left; background-color:#333;}
+     #dataBox2{width:60%; height:300px; float:left; background-color:#fff;}
+ 
+     .clearfix{clear:both;}
+    #footBox{background-color:#0af;}
 
 
   </style>
@@ -30,7 +44,9 @@
     <section id="contentBox" class="out_box">
       <aside id="sideBox">sideBox</aside><!--// #sideBox-->
       <article id="dataBox">dataBox</article><!--// #dataBox-->
-    </section><!--//컨텐트박스-->
+     <!-- <div class="clearfix"></div> --> 
+      <br class="clearfix" />
+      </section><!--//컨텐트박스-->
     <footer id="footBox" class="out_box" >footBox</footer><!--//풋박스-->
 
 
