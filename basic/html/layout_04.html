@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <style>
+
+   html,body{width:100%; height:100%}
+   html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,
+   div,p,pre,form,fieldset,hr{margin:0; padding:0;}
+   ul,ol,li{list-style:none;}
+   .hidden{display: block; width: 0; height: 0; overflow: hidden;}
+   .clearfix:after{content:""; display: block; width:0; height:0; clear:both;}
+
+
+    #warp{width:978px; height:1740px; margin:0 auto; background-color:#ddd;}
+/* #headBox _________________________________________________________*/
+      #headBox{width:978px; height:150px; padding:20px; background-color:#aaf; box-sizing:border-box;}
+        h1{width:125px; height:125px; background-color:#fff; float:left; text-align:center; margin:0;}
+        #gnb{width:650px; height:60px; background-color:#fdd; float:left; margin-left:10px;}
+        #gnb>ul{width:100%; height:100%; padding:15px; margin:0;}
+        #gnb>ul>li{width:80px; height:30px; float:left; margin-left:60px;  background-color:#f55;}
+
+        #unb{width:80px; height:40px; background-color:#f99; float:left;}
+        #unb>ul>li{width:20px; height:20px; background-color:#f99;  margin:10px; float:right;}
+/* #contentBox _________________________________________________________*/       
+     #contentBox{width:978px; height:870px;background-color:#adf;}
+    /* article#hot  */
+     #contentBox>article#hot{width:978px; height:200px;background-color:#fff;}
+      article#hot>.test_div{width:100%; height:100%; float:; background-color:#eef;}
+         #contentBox>article#hot>.test_div>ul{width:100%; height:100%;}
+         #contentBox>article#hot>.test_div>ul>li{width:130px; height:130px;background-color:#adf; float:left; margin-top:40px; margin-left:55px;}
+
+      article#hot>.float_div1{width:40px; height:50px; float:left; background-color:#2ff; margin-top:-120px;}
+      article#hot>.float_div2{width:40px; height:50px; float:right; background-color:#2ff; margin-top:-120px;}
+   
+         
+
+        article#summer{width:978px; height:300px; background-color:#f99; float:left;}
+         #summer>ul{width:803px; height:100%; background-color:#fdd; float:left;}
+         #summer>ul>li{width:140px; height:140px; background-color:#f55; float:left; margin:5px;}
+        article#summer>.div_01{width:65px; height:50px; background-color:#adf; float:right; margin-top:-10px;}
+        article#summer>.div_01>ul{width:100%; height:100%;}
+        article#summer>.div_01>ul>li{width:100%; height:50px; background-color:#f55;margin-bottom:15px }
+        
+
+
+
+/* #footBox _________________________________________________________*/     
+     #footBox{width:978px; height:150px; padding:10px; background-color:#a1f; box-sizing:border-box;}
+  </style>
+</head>
+<body>
+ <div id="warp">
+ <header id="headBox" class="clearfix">
+ <h1>logo</h1>
+<!--____________________________________________#gnb-->
+    <nav id="gnb" class="clearfix">
+       <h2 class="hidden">gnb</h2>
+        <ul>
+          <li>01</li>
+          <li>02</li>
+          <li>03</li>
+          <li>04</li>
+        </ul>
+    </nav>
+<!--____________________________________________#unb-->
+   <nav id="unb">
+       <h2 class="hidden">unb</h2>
+        <ul class="hidden">
+          <li>gnb_01</li>
+          <li>gnb_02</li>
+        </ul>
+    </nav>
+   
+ </header>
+ <!--__________________________________________header-->
+ <section id="contentBox">
+ <!--_______________________________________________________#hot-->
+  <article id="hot" class="clearfix">
+      <h2 class="hidden">hot</h2>
+      <div class="test_div">
+         <ul>
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+          </ul>
+      </div>
+      <div class="float_div1"></div> 
+      <div class="float_div2"></div> 
+  </article>
+  <!--_____________________________________________________#summer-->
+  <article id="summer">
+      <h2 class="hidden">summer</h2>
+      <div class="test_div01">
+         <ul>
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+            <li>06</li>
+          </ul>
+      </div>
+      <div class="div_01">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+ 
+    
+          <side>
+            <ul>
+              <li>00</li>
+            </ul>
+          </side>
+
+  </article>
+  <article id="die"></article>
+  <article id="sun"></article>
+   
+ </section>
+ <!--__________________________________________section-->
+ <footer id="footBox">
+   
+ </footer>
+ <!--__________________________________________footer-->
+  </div>
+</body>
+</html>
