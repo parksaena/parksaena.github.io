@@ -1,0 +1,19 @@
+//_step_02_var.scss
+
+$primary:#f6f;
+$fontColor:#fff;
+$width:#f0f0f0;
+$black:#181818;
+$linkColor:#fdd;
+$lineColor:#faa;
+$lineWidth:1px; 
+$line:$lineWidth solid $lineColor ;
+
+//font 
+$fontSize:1em;
+$fontFamily:'myriad pro', arial, sans-serif;
+
+//-------------------------------------
+
+%hidden{display:block; width:0; height:0; 
+        position: absolute; z-index:-100; overflow:hidden;}
