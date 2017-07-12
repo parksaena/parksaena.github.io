@@ -1,0 +1,26 @@
+/* tumblbug_kategorie.css*/
+
+
+ #wrap{width:960px; height:1500px; background-color:#ada; margin:0 auto;}
+
+    #headBox{width:100%; height:120px; background-color:#eee; 
+             padding:10px; box-sizing:border-box;}
+      h1{width:150px; height:50px; float:left; margin-left:400px;}
+      .login{width:120px; height:30px; background-color:#dad; float:right;}
+
+      #kategorie{width:100%; height:25px; background-color:#111; 
+                 margin:10px auto; float:left;}
+      #kategorie>ul{width:100%; height:100%;}
+      #kategorie>ul>li{width:200px; height:25px; 
+                       background-color:#fa6463; float:left;
+                       border-right:135px solid transparent;
+                       border-left:135px solid transparent;}
+
+    #contentBox{width:100%; height:1150px; background-color:#add; float:left;}
+       #kategorieBox{width:100%; height:400px; background-color:#faa;
+                      padding:20px; box-sizing:border-box;}
+        #kaBox1{width:300px; height:380px; background-color:#f77;
+                 float:left;}
+        #kaBox2{width:600px; height:380px; background-color:#fdd;
+                 float:right;}
+    #footBox{width:100%; height:300px; background-color:#fa6463; float:left;}

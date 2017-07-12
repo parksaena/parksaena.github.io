@@ -18,5 +18,53 @@
 
 
     #adBox{width:400px; height:500px; background-color:#ddd; float:left;}
+    #adBox>#imgBanner{width:100%; height:350px; background-color:#fdd; float:left;}
+    #adBox>#textBanner{width:100%; height:150px; background-color:#999; float:left;}
+
     #contentBox{width:560px; height:1150px; background-color:#ccc; float:right;}
-    #footBox{width:100%; height:200px; background-color:#fa6463; float:left;}
+        #fieldKategorie{width:100%; height:383px; background-color:#456; float:right;
+                         padding:5px; box-sizing:border-box;}
+           h3{width:200px; height:30px; margin-left:23px;}
+           #field1{width:90%; height:160px; background-color:#fda; 
+                   margin:0 auto; margin-top:8px;}
+           #field1>ul{width:100%; height:100%;}    
+           #field1>ul>li{width:155px; height:160px; background-color:#789; 
+                         float:right; margin:0 5px;}
+
+           #field2{width:90%; height:160px; background-color:#fda; 
+                   margin:0 auto; margin-top:8px;}
+           #field2>ul{width:100%; height:100%;}    
+           #field2>ul>li{width:155px; height:160px; background-color:#789; 
+                         float:right; margin:0 5px;}
+
+        #newKategorie{width:100%; height:383px; background-color:#45f; float:right;
+                       padding:5px; box-sizing:border-box;}
+           h3{width:200px; height:30px; margin-left:23px;}
+             #new1{width:90%; height:160px; background-color:#fda; 
+                     margin:0 auto; margin-top:8px;}
+             #new1>ul{width:100%; height:100%;}    
+             #new1>ul>li{width:155px; height:160px; background-color:#789; 
+                           float:right; margin:0 5px;}
+  
+             #new2{width:90%; height:160px; background-color:#fda; 
+                     margin:0 auto; margin-top:8px;}
+             #new2>ul{width:100%; height:100%;}    
+             #new2>ul>li{width:155px; height:160px; background-color:#789; 
+                           float:right; margin:0 5px;}
+
+        #magamKategorie{width:100%; height:383px; background-color:#4af; float:right;
+                       padding:5px; box-sizing:border-box;}
+           h3{width:200px; height:30px; margin-left:23px;}
+             #magam1{width:90%; height:160px; background-color:#fda; 
+                     margin:0 auto; margin-top:8px;}
+             #magam1>ul{width:100%; height:100%;}    
+             #magam1>ul>li{width:155px; height:160px; background-color:#789; 
+                           float:right; margin:0 5px;}
+  
+             #magam2{width:90%; height:160px; background-color:#fda; 
+                     margin:0 auto; margin-top:8px;}
+             #magam2>ul{width:100%; height:100%;}    
+             #magam2>ul>li{width:155px; height:160px; background-color:#789; 
+                           float:right; margin:0 5px;}
+
+    #footBox{width:100%; height:300px; background-color:#fa6463; float:left;}
