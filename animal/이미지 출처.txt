@@ -1,0 +1,3 @@
+tow_dog = http://stories.barkpost.com/wp-content/uploads/2015/04/4937nosetonose.jpg
+bottom_dog = https://www.petfinder.com/wp-content/uploads/2012/11/79168084-ih.jpg
+dog_cat_01 = https://www.pixelstalk.net/pictures-dogs-cats/pictures-of-dog-and-cat-4/

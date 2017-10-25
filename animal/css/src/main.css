@@ -1,0 +1,259 @@
+#wrap{width:100%; min-width:960px; height:auto; }
+
+/*#headBox________________________________________________________*/
+#headBox{width:100%; height:61px; background-color: #3f740c;
+         padding-right:190px; box-sizing:border-box;
+         border-bottom:1px solid #fff;}
+  h1{width:348px; height:60px; float:left;
+     background-image:url(../../img/03_logo/logo_w.png);
+     background-repeat:no-repeat;
+     background-position: center;}
+  h1 > a{width:348px; height:60px; display:block;}
+#headBox > button{width:80px; height:60px; float:right; font-size:20px;
+                  text-align:center; line-height:30px; background-color:#ec4e01;
+                  color:#fff;}
+  .login_join{width:220px; height:60px; float:right;}
+  .login_join > ul{width:100%; height:100%;}
+  .login_join > ul > li{width:100px; height:100%; float:left; font-size:20px; text-align:center;
+                  line-height:60px; color:#fff;}
+/*#Banner________________________________________________________*/
+#animal_banner{width:7680px; height:698px; background-color: #f7eed1;
+               position:relative;}
+#animal_banner > ul{width:7680px; height:698px;}
+#animal_banner > ul > li{width:1920px; height:698px; float:left;}
+#animal_banner > ul > li:nth-child(1){background-color:#f7eed1;/*background-image:url(../../img/01_main/01_banner/banner_01_adoption.png);
+                                      background-repeat:no-repeat;
+                                      background-size:contain;*/}
+#animal_banner > ul > li:nth-child(2){background-color:#add;}
+#animal_banner > ul > li:nth-child(3){background-color:#ad3;}
+#animal_banner > ul > li:nth-child(4){background-color:#aac;}
+
+
+  .banner_text_box{width:100%; height:64px; background-color:rgba(51, 51, 51, 0.7);
+                   float:left; position: absolute; bottom:0;}
+
+    .btn_menu{width:1200px; height:64px; float:left;}
+    .btn_menu > li{width:300px; height:64px; color:#fff; float:left; 
+                   font-size:20px; text-align:center; line-height:50px;
+                   border-right:2px solid #fff; box-sizing:border-box;
+                   }
+  
+
+/*#contentBox________________________________________________________*/
+#contentBox{width:100%; height:2000px; padding-top:150px;
+            box-sizing: border-box;}
+  .yugi_box{width:100%; height:950px; position: relative;}
+  .yugi_box > h2{width:100%; height:40px; text-align:center;
+                 font-size:30px; margin-bottom:2em;}
+
+
+    #yugiManu{width:960px; height:50px; background-color:#f7eed1;
+              margin:0 auto;}
+    #yugiManu > ul{width:700px; height:50px; margin:0 auto;}
+    #yugiManu > ul > li{width:110px; height:50px; text-align:center; float:left;
+                         line-height:50px; top:0; margin-right:8px;}
+    #yugiManu > ul > li:nth-child(6){margin-right:0;}
+
+    #yugiManu > ul > li:hover{background-color:#3f740c; color:#fff;}
+    
+    .yugi_left_right_icon{width:960px; height:160px; margin:0 auto; 
+                           position: absolute; z-index:2; top:38%; left:25%;}
+    .yugi_left_right_icon > ul{width:100%; height:100%;}
+    .yugi_left_right_icon > ul > li{width:60px; height:160px; font-size:90px; color:#3f740c;}
+    .yugi_left_right_icon > ul > li:nth-child(1){float:left;}
+    .yugi_left_right_icon > ul > li:nth-child(2){float:right; text-align:right;}
+     
+
+     .yugi_seoul{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .yugi_seoul dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                  margin-right:50px; margin-bottom:25px;}
+     .yugi_seoul dd li:nth-child(1){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_01.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; }
+     .yugi_seoul dd li:nth-child(2){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_02.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; }
+     .yugi_seoul dd li:nth-child(3){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_03.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-right:0;}
+     .yugi_seoul dd li:nth-child(4){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_04.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-bottom:0;}
+     .yugi_seoul dd li:nth-child(5){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_05.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-bottom:0;}
+     .yugi_seoul dd li:nth-child(6){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_06.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-right:0; margin-bottom:0;}
+     
+
+    /* .gyeonggi_do{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .gyeonggi_do dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                        margin-right:50px; margin-bottom:25px;}
+     .gyeonggi_do dd li:nth-child(1){}
+     .gyeonggi_do dd li:nth-child(2){}
+     .gyeonggi_do dd li:nth-child(3){margin-right:0;}
+     .gyeonggi_do dd li:nth-child(4){margin-bottom:0;}
+     .gyeonggi_do dd li:nth-child(5){margin-bottom:0;}
+     .gyeonggi_do dd li:nth-child(6){margin-right:0; margin-bottom:0;}
+
+     .jeolla{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .jeolla dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                   margin-right:50px; margin-bottom:25px;}
+     .jeolla dd li:nth-child(1){}
+     .jeolla dd li:nth-child(2){}
+     .jeolla dd li:nth-child(3){margin-right:0;}
+     .jeolla dd li:nth-child(4){margin-bottom:0;}
+     .jeolla dd li:nth-child(5){margin-bottom:0;}
+     .jeolla dd li:nth-child(6){margin-right:0; margin-bottom:0;}
+
+
+     .chungcheong_do{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .chungcheong_do dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                            margin-right:50px; margin-bottom:25px;}
+     .chungcheong_do dd li:nth-child(1){}
+     .chungcheong_do dd li:nth-child(2){}
+     .chungcheong_do dd li:nth-child(3){margin-right:0;}
+     .chungcheong_do dd li:nth-child(4){margin-bottom:0;}
+     .chungcheong_do dd li:nth-child(5){margin-bottom:0;}
+     .chungcheong_do dd li:nth-child(6){margin-right:0; margin-bottom:0;}
+
+
+     .kyungsang{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .kyungsang dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                           margin-right:50px; margin-bottom:25px;}
+     .kyungsang dd li:nth-child(1){}
+     .kyungsang dd li:nth-child(2){}
+     .kyungsang dd li:nth-child(3){margin-right:0;}
+     .kyungsang dd li:nth-child(4){margin-bottom:0;}
+     .kyungsang dd li:nth-child(5){margin-bottom:0;}
+     .kyungsang dd li:nth-child(6){margin-right:0; margin-bottom:0;}
+
+
+     .gangwon_do{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .gangwon_do dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                           margin-right:50px; margin-bottom:25px;}
+     .gangwon_do dd li:nth-child(1){}
+     .gangwon_do dd li:nth-child(2){}
+     .gangwon_do dd li:nth-child(3){margin-right:0;}
+     .gangwon_do dd li:nth-child(4){margin-bottom:0;}
+     .gangwon_do dd li:nth-child(5){margin-bottom:0;}
+     .gangwon_do dd li:nth-child(6){margin-right:0; margin-bottom:0;}*/
+      
+
+   /* #yugiBox > li{width:110px; height:50px; float:left;}
+    #yugiBox > li > dl{width:110px; height:50px;}
+    #yugiBox > li > dl > dt{width:110px; height:50px;}
+    #yugiBox > li > dl > dt:hover{background-color:#3f740c; color:#fff;}
+    #yugiBox > li > dl > dd{width:700px; height:425px; position:absolute; top:60px; left:50%; margin-left: -350px;}
+    #yugiBox > li > dl > dd > ul{width:700px; height:425px;}
+    #yugiBox > li > dl > dd > ul > li{width:200px; height:200px; background-color:#333;
+                                      float:left; margin-right: 50px; margin-bottom:15px;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(1){background-image:url(../../img/contentBox/yugi/yugi_01.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(2){background-image:url(../../img/contentBox/yugi/yugi_02.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(3){margin-right: 0;
+                                                  background-image:url(../../img/contentBox/yugi/yugi_03.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(4){background-image:url(../../img/contentBox/yugi/yugi_04.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(5){background-image:url(../../img/contentBox/yugi/yugi_05.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}
+    #yugiBox > li > dl > dd > ul > li:nth-child(6){margin-right: 0;
+                                                  background-image:url(../../img/contentBox/yugi/yugi_06.jpg);
+                                                   border-right:none;
+                                                   background-position:center;
+                                                   background-size:cover;}*/
+/*_______findBox________________________________________________________*/
+   
+ #findBox{width:100%; height:950px; position: relative; background-color:#ddd;}
+ #findBox > h2{width:100%; height:40px; text-align:center;
+                font-size:30px; margin-bottom:2em; background-color: #fdd;}
+
+
+    .find_manu{width:960px; height:50px; background-color:#f7eed1;
+              margin:0 auto;}
+    .find_manu > ul{width:700px; height:50px; margin:0 auto;}
+    .find_manu > ul > li{width:110px; height:50px; text-align:center; float:left;
+                         line-height:50px; top:0; margin-right:8px;}
+    .find_manu > ul > li:nth-child(6){margin-right:0;}
+
+    .find_manu > ul > li:hover{background-color:#3f740c; color:#fff;}
+    
+    .find_left_right_icon{width:960px; height:160px; margin:0 auto; 
+                           position: absolute; z-index:2; top:38%; left:25%;}
+    .find_left_right_icon > ul{width:100%; height:100%;}
+    .find_left_right_icon > ul > li{width:60px; height:160px; font-size:90px; color:#3f740c;}
+    .find_left_right_icon > ul > li:nth-child(1){float:left;}
+    .find_left_right_icon > ul > li:nth-child(2){float:right; text-align:right;}
+     
+
+     .find_seoul{width:700px; height:425px; margin:0 auto; margin-top:30px;}
+     .find_seoul dd li{width:200px; height:200px; background-color:#3f740c; float:left;
+                  margin-right:50px; margin-bottom:25px;}
+     .find_seoul dd li:nth-child(1){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_01.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; }
+     .find_seoul dd li:nth-child(2){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_02.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; }
+     .find_seoul dd li:nth-child(3){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_03.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-right:0;}
+     .find_seoul dd li:nth-child(4){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_04.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-bottom:0;}
+     .find_seoul dd li:nth-child(5){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_05.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-bottom:0;}
+     .find_seoul dd li:nth-child(6){background-image:url("../../img/01_main/02_yugi_animal/01_seoul/yugi_seoul_06.jpg");
+                                background-repeat:no-repeat;
+                                background-size:contain; 
+                                margin-right:0; margin-bottom:0;}
+    
+#banner{width:100%; height:450px; background-color:#ada;}
+/*#newsBox______________________________________________________*/
+#newsBox{width:100%; height:644px;
+          padding-top:100px; box-sizing:border-box;}
+
+    .gongji{width:960px; height:50px;background-color:#f7eed1;
+            margin:0 auto;}
+    .gongji > ul{width:660px; height:50px; margin:0 auto;}
+    .gongji > ul > li{width:110px; height:50px; float:left; text-align:center;
+                      line-height:50px;}
+    .gongji > ul > li:hover{background-color:#3f740c; color:#fff;}
+
+    .gongjl_list{width:960px; height:250px; background-color:#f7eed1;
+                 margin:0 auto; margin-top:40px; text-align:center;}
+    .gongjl_list > dl{width:100%; height:100%;}
+    .gongjl_list > dl > dt{width:100%; height:50px; background-color:#e5e2e2;}
+    .gongjl_list > dl > dt > span{width:192px; height:50px; display: block; float:left;
+                                   line-height:50px;}
+
+    .gongjl_list > dl > dd > ul{width:100%; height:50px;}
+    .gongjl_list > dl > dd > ul {width:100%; height:50px;}
+    .gongjl_list > dl > dd > ul span{display:block; width:192px; height:50px;
+                                       float:left;  line-height:50px; }
+/*#footBox______________________________________________________*/
+#footBox{width: 100%; height:150px; background-color: #3f740c; padding:20px 0 0 20px; box-sizing:border-box;}
+    .nonglim_logo{width:200px; height:50px; background-color:#fff; float:left;
+                  margin-right:20px;}
+    .foot_contnet{width:600px; height:50px; color:#fff; float:left; text-align:left;}

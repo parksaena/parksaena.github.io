@@ -1,0 +1,94 @@
+
+#wrap{width:100%; min-width:960px; height:900;}
+
+#headBox{width:702px; height:36px; margin:0 auto; margin-bottom:20px;
+         margin-top:10px;}
+  #animalView{width:76px; height:36px; background-color:#3f740c;
+               float:right; text-align:center; border-radius:8px; line-height:35px; }
+  #animalView>button{color:#fff;}
+
+#contentBox{width:702px; height: 776px; background-color:#fdd; margin:0 auto;}
+               
+  ul{background-color:#3f740c; display:none;}
+  li{ color:#fff; font-size:15px;
+     text-align:center;}
+  .animal{font-size:2em; color:#333; text-align:center; background-color:#f7eed1;
+          border:2px solid #fff; box-sizing:border-box;
+          line-height:50px;}
+
+  .animal:hover{background-color:#3f740c; color:#fff; transition:all 500ms;}
+/*동물보호법________________________________________________________________________*/
+    .aniaml_list_01{width:234px; height:194px; float:left;}
+    .aniaml_list_01 dl{position: relative;}
+    .aniaml_list_01 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_01 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_01 dl  ul{width:230px; height:188px; float:left; position:absolute; top:0; 
+                          /* display:none; */  }
+    .aniaml_list_01 dl  ul > li{width:115px; height:47px; float:left; line-height:50px;}
+
+/*동물판매업,장묘업_________________________________________________________________*/
+    .aniaml_list_02{width:468px; height:194px; float:left;}
+    .aniaml_list_02 dl{position: relative;}
+    .aniaml_list_02 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_02 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_02 dl  ul{width: 464px; height: 188px; float:left; position:absolute; top:0;}
+    .aniaml_list_02 dl  ul > li{width: 464px; height: 62px;}
+
+/*유기동물__________________________________________________________________________*/
+    .aniaml_list_03{width:234px; height:388px; float:left;}
+    .aniaml_list_03 dl{position: relative;}
+    .aniaml_list_03 dt{width: 100%; height: 100%;}
+    .aniaml_list_03 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_03 dl  ul{width: 230px; height: 384px; float:left; position:absolute; top:0;}
+    .aniaml_list_03 dl  ul > li{width: 115px; height: 96px; float:left; line-height:90px;}
+
+         .animal_text_box_03{width:230px; height:144px; line-height:50px;}
+         .list_cat_img{width:230px; height:240px;
+                       background-image:url(../../img/contentBox/cat/cat_01_yugi_min.png);
+                       background-repeat: no-repeat;
+                       background-position:bottom;}
+    .aniaml_list_03:hover .list_cat_img{opacity:0;}
+/*logo___________________________________________________________________________________*/
+    .aniaml_list_h1{width:234px; height:388px; float:left; background-color:#3f740c;
+                    background-image:url(../../img/index/logo_w.png);
+                      background-repeat:no-repeat;
+                    background-position:center;}
+    .aniaml_list_h1:hover{background-color:#f7eed1;
+                          background-image: url(../../img/index/logo.png);
+                          background-repeat:no-repeat;
+                          background-position:center;}
+/*실험동물_____________________________________________________________________________*/
+    .aniaml_list_05{width:234px; height:194px; float:left;}
+    .aniaml_list_05 dl{position: relative;}
+    .aniaml_list_05 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_05 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_05 dl  ul{width: 230px; height: 190px; float:left; position:absolute; top:0;}
+    .aniaml_list_05 dl  ul > li{width: 230px; height: 95px; float:left; line-height:90px;}
+/*농장동물____________________________________________________________________________ */
+    .aniaml_list_06{width:234px; height:388px; float:right;}
+    .aniaml_list_06 dl{position: relative;}
+    .aniaml_list_06 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_06 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_06 dl  ul{width: 230px; height: 384px; float:left; position:absolute; top:0;}
+    .aniaml_list_06 dl  ul > li{width: 115px; height: 95px; float:left; line-height:90px;}
+
+           .animal_text_box_06{width:230px; height:144px;}
+           .list_so_img{width:230px; height:240px;
+                         background-image:url(../../img/index/so_min.png);
+                         background-repeat: no-repeat;
+                         background-position:bottom;}
+    .aniaml_list_06:hover .list_so_img{opacity:0;}
+/*자료마당____________________________________________________________________________ */
+    .aniaml_list_07{width:234px; height:194px; float:left;}
+    .aniaml_list_07 dl{position: relative;}
+    .aniaml_list_07 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_07 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_07 dl  ul{width: 230px; height: 190px; float:left; position:absolute; top:0;}
+    .aniaml_list_07 dl  ul > li{width: 115px; height: 95px; float:left; line-height:90px;}
+/*동물등록____________________________________________________________________________ */
+    .aniaml_list_08{width:234px; height:194px; float:left;}
+    .aniaml_list_08 dl{position: relative;}
+    .aniaml_list_08 dt{width: 100%; height: 100%; line-height: 194px;}
+    .aniaml_list_08 dt > a{width: 100%; height: 100%; display: block;}
+    .aniaml_list_08 dl  ul{width: 230px; height: 190px; float:left; position:absolute; top:0;}
+    .aniaml_list_08 dl  ul > li{width: 115px; height: 63px; float:left; line-height:90px;}

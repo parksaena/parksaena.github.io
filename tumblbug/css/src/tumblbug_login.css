@@ -1,0 +1,72 @@
+
+#wrap{width:980px; height:auto; background-color:#fff; margin:0 auto;}
+ 
+
+  /*____________________#headBox_______________*/
+   /*#headBox-----------------*/
+#headBox{width:100%; height:100px;
+         border-bottom:1px solid #333; padding-top:25px; box-sizing:border-box;}
+         h1{width:122px; height:35px; margin:0 auto;
+            background-image:url(../../img/01_logo/logo.jpg);
+            background-repeat:no-repeat;
+            background-size:120px;}
+         h1 > a{display:block; width:122px; height:35px;} 
+         .login_box{width:150px; height:20px; float:right; color:#333;}
+         .login_box > ul{width:100%; height:100%;}
+         .login_box > ul > li{width:75px; height:100%; float:left;
+                              text-align:center;}
+         .login_box > ul > li > a{display:block; width:75px; height:100%;}
+#kategoli{width:50px; height:50px; font-size:35px; text-align:center; color:#333;}
+
+  /*____________________#contentBox_______________*/
+  #contentBox{width:980px; height:675px; background-color:#e5e3e3; 
+              padding:60px 18px 0 18px; box-sizing:border-box; margin-top:30px;margin-bottom:30px;}
+     .login_box1{width:240px; height:540px; background-color:#dad; float:left;
+                  background-image:url(../../img/login_img.jpg);
+                  background-repeat:no-repeat;
+                  background-position:center; color:#fff;}
+      .opacity_box{width:240px; height:540px; background-color: #333; opacity: 0.6;}
+      .text_box1{width:auto; height:auto; position:relative; top:-400px; left:2px;
+                  text-align:center;}
+       h2{font-size:30px;}
+
+     .login_box2{width:704px; height:540px; background-color:#fff; float:right; 
+                 padding:45px 10px 0 10px; box-sizing: border-box;}
+
+     .login_box2 form{margin-top:100px; padding-left: 50px; box-sizing:border-box;}
+     .login_box2 input{border:none; border-bottom: 1px solid #e5e3e3;}
+     .login_box2 .user_name, .pwd{width:250px;}
+     .pwd{margin-top:15px;}
+     .login_box2 button{margin-top:100px; background-color:#fa6463;}
+
+
+
+
+      .email_login{width:300px; height:450px; background-color:#fff; float:left;
+                  position: relative; padding-right: 3em; border-right:2px solid #333;
+                  text-align:center;}
+   
+        .email_login:before{content:"or"; display: block; text-align: center; line-height: ;
+                      width: 50px; height: auto; padding:4px; background-color: #fff;
+                       position: absolute; top:35%; right: -28px; font-size: 1.5em;}
+     /*_______input__________*/
+     .remember{display: none;}
+      input{width: 100%; height: 100%; color:#333;}
+
+   
+         .email_login>button{width:100px; height:50px;}
+
+      .different_login{width:300px; height:450px; background-color:#fff; float:right;
+                        text-align:center;}
+      .a_button {width: auto; height:auto; margin-top:100px; margin-left:30px;}
+      .a_button li{width:230px; height:50px; background-image: url('../../img/naver_icon/naver_login.PNG'); background-size: contain; background-repeat: no-repeat;}
+      .a_button li:last-child{margin-top:20px;}
+      .a_button li a{width: 100%; height: 100%; display: block;}
+
+/*____________________#footBox_______________*/
+  #footBox{width:100%; height:150px;background-color:#e5e3e3;
+         padding:20px; box-sizing: border-box;}
+          .foot_content{width:600px; height:90px;}
+          .foot_content > ul{width:600px; height:90px;}
+          .foot_content > ul > li{width:300px; height:30px; float:left;}
+          .text_content{width:500px; height:15px;color:#333; font-size:10px;}

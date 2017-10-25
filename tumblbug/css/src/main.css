@@ -1,0 +1,438 @@
+#wrap{width:980px; height:auto; margin:0 auto;}
+
+/*#headBox-----------------*/
+#headBox{width:100%; height:100px;
+         border-bottom:1px solid #333; padding-top:25px; box-sizing:border-box;}
+         h1{width:122px; height:35px; margin:0 auto;
+            background-image:url(../../img/01_logo/logo.jpg);
+            background-repeat:no-repeat;
+            background-size:120px;}
+         h1 > a{display:block; width:122px; height:35px;} 
+         .login_box{width:150px; height:20px; float:right; color:#333;}
+         .login_box > ul{width:100%; height:100%;}
+         .login_box > ul > li{width:75px; height:100%; float:left;
+                              text-align:center;}
+         .login_box > ul > li > a{display:block; width:75px; height:100%;}
+#kategoli{width:50px; height:50px; font-size:35px; text-align:center; color:#333;}
+/*#banner--------------*/
+#banner{width:100%; height:480px; position: relative;
+        background-image:url(../../img/02_banner/filFlower.jpg);
+        background-repeat:no-repeat;
+        background-size:980px;
+        }
+          .banner_text_box{width:260px; height:240px; background-color:rgba(3,3,3,0.5);
+                           position: absolute; left:8em;
+                           padding:8.750em 0 0 1.6em; box-sizing:border-box;}
+          .banner_text_box > a{display:block; width:260px; height:120px;
+                               position: absolute; top:0; left:0;
+                               padding:1.6em; box-sizing: border-box;}
+          .banner_text_box  p{color:#fff; font-size:15px; }
+          .banner_text_box  p > strong{color:#fff; font-size:28px; margin-bottom:2em;}
+/*#contentBox-----------------*/
+#contentBox{width:100%; height:auto;}
+/*#newBox--------------------*/
+          #newBox{width:100%; height:auto;
+                   padding-top:100px;}
+          #newBox > h2{width:980px; height:34px; border-bottom:2px solid #e5e3e3;
+                       text-align: left; font-size:22px; color:#333;}
+          #newBox > h2 > a{display:block; width:980px; height:34px;}
+          /*.new_01---------*/
+                  .new_01{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .new_img_01{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/new_poet.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_01{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_01:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_01  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_01  li:nth-child(1){font-size:20px;}
+                        .new_text_01  li:nth-child(2){font-size:16px;}
+
+                        .gauge_01{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_01{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+          /*.new_02---------*/
+                  .new_02{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .new_img_02{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/new_pouch.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_02{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_02:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_02  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_02  li:nth-child(1){font-size:20px;}
+                        .new_text_02  li:nth-child(2){font-size:16px;}
+
+                        .gauge_02{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_02{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.new_03---------*/
+                  .new_03{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; 
+                         }
+
+                       .new_img_03{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/new_streetcat.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_03{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_03:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_03  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_03  li:nth-child(1){font-size:20px;}
+                        .new_text_03  li:nth-child(2){font-size:16px; }
+
+                        .gauge_03{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_03{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.new_04---------*/
+                   .new_04{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .new_img_04{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/feminism.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_04{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_04:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_04  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_04  li:nth-child(1){font-size:20px;}
+                        .new_text_04  li:nth-child(2){font-size:16px;}
+
+                        .gauge_04{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_04{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.new_05---------*/
+                  .new_05{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .new_img_05{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/seoul.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_05{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_05:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_05  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_05  li:nth-child(1){font-size:20px;}
+                        .new_text_05  li:nth-child(2){font-size:16px;}
+
+                        .gauge_05{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_05{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.new_06---------*/
+                   .new_06{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left;
+                         }
+
+                       .new_img_06{width:300px; height:225px;
+                                    background-image:url(../../img/03_new/short_film.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .new_text_06{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .new_text_06:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .new_text_06  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .new_text_06  li:nth-child(1){font-size:20px;}
+                        .new_text_06  li:nth-child(2){font-size:16px;}
+
+                        .gauge_06{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_06{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+                  .ad_banner_01{width:100%; height:135px; margin-top:50px;
+                                background-image:url(../../img/05_adbanner/adbanner_1.jpg);
+                                background-repeat:no-repeat;
+                                background-size:contain;}
+/*#magamBox---------------------*/
+          #magamBox{width:100%; height:auto;
+                   padding-top:100px;}
+          #magamBox > h2{width:980px; height:34px; border-bottom:2px solid #e5e3e3;
+                       text-align: left; font-size:22px; color:#333;}
+          #magamBox > h2 > a{display:block; width:980px; height:34px;}
+          /*.magam_01---------*/
+                  .magam_01{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .magam_img_01{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/7080.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_01{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_01:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_01  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_01  li:nth-child(1){font-size:20px;}
+                        .magam_text_01  li:nth-child(2){font-size:16px;}
+
+                        .gauge_01{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_01{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+          /*.magam_02---------*/
+                  .magam_02{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .magam_img_02{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/cat.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_02{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_02:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_02  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_02  li:nth-child(1){font-size:20px;}
+                        .magam_text_02  li:nth-child(2){font-size:16px;}
+
+                        .gauge_02{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_02{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.magam_03---------*/
+                  .magam_03{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; 
+                         }
+
+                       .magam_img_03{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/toothbrush.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_03{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_03:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_03  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_03  li:nth-child(1){font-size:20px;}
+                        .magam_text_03  li:nth-child(2){font-size:16px; }
+
+                        .gauge_03{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_03{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.magam_04---------*/
+                   .magam_04{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .magam_img_04{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/magam_feminism.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_04{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_04:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_04  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_04  li:nth-child(1){font-size:20px;}
+                        .magam_text_04  li:nth-child(2){font-size:16px;}
+
+                        .gauge_04{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_04{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.magam_05---------*/
+                  .magam_05{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left; margin-right: 25px;
+                         }
+
+                       .magam_img_05{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/magam_pearl.png);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_05{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_05:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_05  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_05  li:nth-child(1){font-size:20px;}
+                        .magam_text_05  li:nth-child(2){font-size:16px;}
+
+                        .gauge_05{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_05{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+    /*.magam_06---------*/
+                   .magam_06{width:305px; height:225px;
+                           margin-bottom:3em; margin-top:3em; position:relative;
+                           float: left;
+                         }
+
+                       .magam_img_06{width:300px; height:225px;
+                                    background-image:url(../../img/04_magam/magam_uphallopa.jpg);
+                                    background-repeat:no-repeat;
+                                    background-size:contain; float: left;
+                                    }
+
+                        .magam_text_06{width: 300px; height:225px;
+                                     position:absolute; top:0; color: transparent; transition: all 300ms;}
+                        .magam_text_06:hover{background-color: rgba(255,255,255,0.7); color: #333;}
+                        .magam_text_06  li{font-size:25px; width:100%; height:60px;
+                                         text-align: center; line-height:80px;}
+                        .magam_text_06  li:nth-child(1){font-size:20px;}
+                        .magam_text_06  li:nth-child(2){font-size:16px;}
+
+                        .gauge_06{width:5px; height:225px; background-color:#fff; float: left;
+                                  position: relative;
+                                 }
+                          .gauge_bar_06{width:5px; height:50%; background-color:#fa6463;
+                                        position: absolute; bottom:0;
+                                      }
+
+          
+          #ad_banner_02{width:100%; height:135px;
+                         background-image: url(../../img/05_adbanner/adbanner_2.jpg);
+                         background-repeat:no-repeat;
+                         background-size:contain;
+                         margin-bottom:120px;}
+          #bunya{width:100%; height:800px;}
+          #bunya > h2{width:980px; height:34px; border-bottom:2px solid #e5e3e3;
+             text-align: left; font-size:22px; color:#333;
+             margin-bottom:60px;}
+          #bunya > h2 > a{display:block; width:980px; height:34px;}
+
+          #kategoliBox{width:980px; height:640px; padding:20px 90px;
+                        box-sizing:border-box; background-color:#fa6463;}
+
+          #kategoliBox > dl{width:200px; height:200px; float:left;
+                             padding:25px; box-sizing:border-box;}
+          #kategoliBox > dl > dt{background-color:rgba(51, 51, 51, 0.7);
+                                 width:150px; height:150px; border-radius: 160px; color:#fff; 
+                                 text-align:center; float:left; line-height:145px;
+                                 }
+          #kategoliBox > dl > dd{width:150px; height:150px; border-radius: 160px;}
+                            .game{background-image:url(../../img/06_kategoli/fake_game.jpg);
+                                  background-repeat:no-repeat;
+                                  background-position:center;
+                                  background-size:200px;}
+                            .show{background-image:url(../../img/06_kategoli/BillofRights_show.jpg);
+                                  background-repeat:no-repeat;
+                                  background-position:center;
+                                  background-size:200px;}
+                            .design{background-image:url(../../img/06_kategoli/deepPan_design.jpg);
+                                    background-repeat: no-repeat;
+                                    background-position:center;
+                                    background-size:200px;}
+                            .manga{background-image:url(../../img/06_kategoli/yeogosaeng_manga.jpg);
+                                   background-repeat:no-repeat;
+                                   background-position:center;
+                                   background-size:200px;}
+                            .art{background-image:url(../../img/06_kategoli/art.png);
+                                 background-repeat:no-repeat;
+                                 background-position:center;
+                                 background-size:200px;}
+                            .picture{background-image:url(../../img/06_kategoli/picture.jpg);
+                                     background-repeat:no-repeat;
+                                     background-position:center;
+                                     background-size:200px;}
+                            .movie{background-image:url(../../img/06_kategoli/movie.png);
+                                   background-repeat:no-repeat;
+                                   background-position:center;
+                                   background-size:200px;}
+                            .fashion{background-image:url(../../img/06_kategoli/fashion.png);
+                                     background-repeat:no-repeat;
+                                     background-position:center;
+                                     background-size:200px;}
+                            .cooking{background-image:url(../../img/06_kategoli/cooking.jpg);
+                                     background-repeat:no-repeat;
+                                     background-position:center;
+                                     background-size:200px;}
+                            .mugic{background-image:url(../../img/06_kategoli/Sereno_mugic.jpg);
+                                   background-repeat:no-repeat;
+                                   background-position:center;
+                                   background-size:200px;}
+                            .book_art{background-image:url(../../img/06_kategoli/book_art.jpg);
+                                      background-repeat:no-repeat;
+                                      background-position:center;
+                                      background-size:200px;}
+                            .technology{background-image:url(../../img/06_kategoli/nemo_technology.png);
+                                        background-repeat:no-repeat;
+                                        background-position:center;
+                                        background-size:200px;}
+        
+#footBox{width:100%; height:150px;background-color:#e5e3e3;
+         padding:20px; box-sizing: border-box;}
+          .foot_content{width:600px; height:90px;}
+          .foot_content > ul{width:600px; height:90px;}
+          .foot_content > ul > li{width:300px; height:30px; float:left;}
+          .text_content{width:500px; height:15px;color:#333; font-size:10px;}

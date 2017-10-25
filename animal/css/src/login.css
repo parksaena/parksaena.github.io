@@ -1,0 +1,24 @@
+/*#wrap{width:100%; min-width:960px; height:100%; }*/
+
+
+#loginBox{width:600px; height:430px; background-color:#fff; margin:0 auto;
+          padding:10px;  box-sizing:border-box; position: fixed;
+          top: 50%; left: 50%; margin-top: -215px; margin-left: -300px; z-index:1000;
+          border:1px solid #333;}
+    .close_btn{width:40px; height:40px; font-size:25px; float:right; }
+    .close_btn > a{display:block; width:40px; height:40px; }
+
+    h2{width:100px; height:50px; margin:0 auto; text-align:center;
+       font-size:30px; margin-bottom:1.5em; color:#3f740c;}
+      form{width:350px; height:380px; position: absolute; bottom:0; left:125px;}
+      fieldset{height:129px; margin:0 auto; margin-bottom:1em; border:0;}
+      input{width:350px; height:46px; background-color:#e5e2e2;
+            box-sizing:border-box; margin-bottom:10px;
+            border-radius:10px; border:0;}
+      .id_box{width:350px; height:46px; margin-bottom:10px;}
+      .pw_box{width:350px; height:46px; margin-bottom:10px;}
+      .login_btn{width:350px; height:46px; background-color:#3f740c;
+                margin-bottom:1em; color:#fff; font-size:18px; letter-spacing:4px;
+                border-radius:10px;}
+      .sign_up_btn{width:175px; height:50px; float:left;}
+      .id_pw_btn{width:175px; height:50px; float:right;}
